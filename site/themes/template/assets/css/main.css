@@ -260,6 +260,10 @@ body[data-theme="dark"] .morandi-nav {
   margin-bottom: 1.25rem;
 }
 
+.hero-copy .summary {
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+}
+
 .hero-copy .summary a,
 .hero-copy .highlight-list a {
   color: var(--color-primary);
