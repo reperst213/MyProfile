@@ -4,6 +4,32 @@ Hugo와 GitHub Pages로 만든 개인 소개 사이트입니다. 관심 분야�
 
 사이트: https://reperst213.github.io/MyProfile/
 
+## 로컬 빌드에 필요한 도구
+
+- **Hugo Extended 0.167.0**: GitHub Actions에서도 사용하는 버전입니다. [Hugo 0.167.0 공식 릴리스](https://github.com/gohugoio/hugo/releases/tag/v0.167.0)에서 운영체제에 맞는 Extended 버전을 설치합니다. macOS에서는 `hugo_extended_0.167.0_darwin-universal.pkg`를 내려받아 설치할 수 있습니다.
+- **Python 3**: 빌드 스크립트를 실행할 때 사용합니다. 로컬 검증에는 Python 3.9.6을 사용했고, GitHub Actions는 Python 3.12를 사용합니다. 설치가 필요하면 [Python 공식 설치 안내](https://www.python.org/downloads/)를 참고합니다.
+- **Git**: 저장소를 받고 변경 내용을 관리하는 데 사용합니다. 로컬에서 확인한 버전은 Git 2.54.0입니다. 설치가 필요하면 [Git 공식 설치 안내](https://git-scm.com/install/)를 참고합니다.
+
+설치한 도구의 버전은 다음 명령으로 확인할 수 있습니다.
+
+```bash
+hugo version
+python3 --version
+git --version
+```
+
+## 로컬에서 빌드하기
+
+저장소를 내려받은 뒤 루트 폴더에서 실행합니다.
+
+```bash
+git clone https://github.com/reperst213/MyProfile.git
+cd MyProfile
+python3 .github/pages_build.py --build
+```
+
+빌드가 완료되면 결과가 `public/`에 생성됩니다. 이 명령은 위에 적은 로컬 Hugo와 Python 버전으로, 커밋된 저장소의 임시 복사본에서 검증했습니다. 생성된 `public/`은 Git에 포함하지 않습니다.
+
 ## 소개와 활동 수정하기
 
 - `site/data/profile.yaml`: 이름, 자기소개, 소속, 관심 분야와 GitHub 링크
