@@ -1,14 +1,14 @@
 
 baseURL = 'https://yajie-xu.github.io/hugo-celadon/'
-languageCode = 'en-us'
-title = 'Dr. Celadon'
+languageCode = 'ko'
+title = 'Joeunbo'
 
 enableRobotsTXT = true
 
 [params]
-  description = 'Computational Archaeologist weaving ancient history with modern algorithms.'
-  email = 'alex@example.com'
-  location = 'Tampa, USA'
+  description = '인공지능과 컴퓨터 기술을 배우는 Joeunbo의 개인 사이트입니다.'
+  email = 'joeunbo2901@gmail.com'
+  location = '전주'
 
 [params.homepage]
   sections = ["hero", "news", "research", "writing"]
