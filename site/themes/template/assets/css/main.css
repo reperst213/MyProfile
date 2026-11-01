@@ -35,11 +35,18 @@ html {
 
 body {
   margin: 0;
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Pretendard", system-ui, sans-serif;
   line-height: 1.7;
   color: var(--color-text);
   background: var(--color-bg);
   transition: background 0.3s ease, color 0.3s ease;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
 }
 
 .page-shell {
@@ -256,12 +263,8 @@ body[data-theme="dark"] .morandi-nav {
 }
 
 .summary {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: inherit;
   margin-bottom: 1.25rem;
-}
-
-.hero-copy .summary {
-  font-family: "Pretendard", "Noto Sans KR", sans-serif;
 }
 
 .hero-copy .summary a,
@@ -319,7 +322,7 @@ body[data-theme="dark"] .morandi-nav {
 .keyword-groups {
   display: grid;
   gap: 0.4rem;
-  font-family: "Merriweather", serif;
+  font-family: inherit;
 }
 
 .keyword-row {
@@ -337,7 +340,7 @@ body[data-theme="dark"] .morandi-nav {
 .highlight-list {
   padding-left: 1.1rem;
   margin: 0 0 1.25rem;
-  font-family: "Merriweather", serif;
+  font-family: inherit;
   color: var(--color-text);
 }
 
@@ -415,7 +418,7 @@ body[data-theme="dark"] .morandi-nav {
 
 .news-detail p {
   margin: 0 0 0.3rem;
-  font-family: "Merriweather", serif;
+  font-family: inherit;
   line-height: 1.4;
   font-size: 0.95rem;
 }
@@ -530,7 +533,7 @@ body[data-theme="dark"] .morandi-nav {
 }
 
 .card-summary {
-  font-family: "Merriweather", serif;
+  font-family: inherit;
   margin: 0;
   color: var(--color-text);
   display: -webkit-box;
@@ -675,12 +678,12 @@ body[data-theme="dark"] .tag {
   text-align: center;
   color: #fff;
   padding: 1.5rem;
-  font-family: "Merriweather", serif;
+  font-family: inherit;
 }
 
 .category-card h3 {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: inherit;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.9rem;
@@ -709,7 +712,7 @@ body[data-theme="dark"] .tag {
   text-align: center;
   color: var(--color-muted);
   font-size: 0.85rem;
-  font-family: "Merriweather", serif;
+  font-family: inherit;
   transition: color 0.3s ease;
 }
 
@@ -756,14 +759,14 @@ body[data-theme="dark"] .tag {
 }
 
 .reader-status {
-  font-family: "Merriweather", serif;
+  font-family: inherit;
   color: var(--color-muted);
   text-align: center;
   padding: 2rem 0;
 }
 
 .markdown-body {
-  font-family: "Merriweather", serif;
+  font-family: inherit;
   font-size: 1.05rem;
   line-height: 1.9;
   color: var(--color-text);
@@ -775,7 +778,7 @@ body[data-theme="dark"] .tag {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  font-family: "Inter", sans-serif;
+  font-family: inherit;
   color: var(--brand);
   margin-top: 2rem;
   margin-bottom: 0.5rem;
