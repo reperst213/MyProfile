@@ -4,10 +4,13 @@
   <div class="expandable-grid" data-expandable-content>
     {{ range $items }}
       <article class="expandable-card">
-        {{ $img := strings.TrimPrefix "/" .image }}
-        <div class="card-image">
-          <img src="{{ $img | relURL }}" alt="{{ .title }} thumbnail" loading="lazy">
-        </div>
+        {{ $title := .title }}
+        {{ with .image }}
+          {{ $img := strings.TrimPrefix "/" . }}
+          <div class="card-image">
+            <img src="{{ $img | relURL }}" alt="{{ $title }} thumbnail" loading="lazy">
+          </div>
+        {{ end }}
         <div class="card-content">
           {{ with .meta }}<p class="card-meta">{{ . }}</p>{{ end }}
           <h3>{{ .title }}</h3>
