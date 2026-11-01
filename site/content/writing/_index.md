@@ -1,6 +1,6 @@
 ---
 title: "Study Notes"
-description: "공부한것들과 진행한작업"
+description: "공부한 것들과 진행한 작업"
 date: 2026-11-01
 layout: "list"
 ---
