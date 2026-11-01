@@ -1,9 +1,7 @@
 name: "Joeunbo"
 title: "컴퓨터인공지능학부 수강생"
 summary: >
-  I explore the intersection of ==ancien== history and ==modern== algorithms. My work applies 
-  ~~computer vision~~ and ~~deep learnin~~g to reconstruct fragmented pottery, making the 
-  patterns of the past legible to the machines of the future.
+  안녕하세요. 저는 컴퓨터인공지능학부에서 공부하고 있는 Joeunbo입니다. 인공지능과 컴퓨터 기술에 관심이 있으며, 다양한 기술을 배우고 직접 만들어 보며 이해를 넓혀가고 있습니다.
 affiliation: "Postdoc Fellow at the Institute of Digital Heritage<br>Celadon Lab for Historical Data"
 profile_image: "images/profile.png"
 profile_layout: "classic" # Options: "modern" or "classic"
