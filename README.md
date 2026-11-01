@@ -60,6 +60,18 @@ python3 .github/pages_build.py --build
 
 4. [GitHub Actions 실행 목록](https://github.com/reperst213/MyProfile/actions)에서 해당 커밋의 `Deploy Hugo to GitHub Pages` 실행을 열고 빌드와 배포가 성공했는지 확인합니다. 이후 [공개 사이트](https://reperst213.github.io/MyProfile/)에서 수정 내용과 링크가 정상인지 확인합니다.
 
-## 테마 출처
+## 자료 출처와 이용 조건
 
 이 사이트는 [Yajie Xu의 Celadon 테마](https://github.com/Yajie-Xu/hugo-celadon)를 사용합니다. 테마의 MIT 라이선스 고지는 [LICENSE.txt](LICENSE.txt)에 있습니다. 테마 사용법은 [원본 테마 README](site/themes/template/README.md)에서 확인할 수 있습니다.
+
+| 자료 | 사용 위치·구분 | 출처와 이용 조건 |
+| --- | --- | --- |
+| Celadon 테마 | 사이트 레이아웃과 스타일 · 외부 자료 | [Yajie Xu의 Celadon](https://github.com/Yajie-Xu/hugo-celadon) · MIT 라이선스, [라이선스 고지](LICENSE.txt) 유지 |
+| Pretendard 글꼴 | 사이트 글꼴 · 외부 자료 | [Pretendard](https://github.com/orioncactus/pretendard) · [SIL Open Font License](https://github.com/orioncactus/pretendard/blob/main/LICENSE) |
+| gl-matrix 3.4.3 | 로봇팔 행렬 계산 · 외부 자료 | [gl-matrix](https://github.com/toji/gl-matrix) · MIT 라이선스, 사용한 [파일](site/static/projects/robot-arm/lib/gl-matrix-min.js)에 저작권·라이선스 고지 포함 |
+| KaTeX 0.16.9 | 테마의 수식 표시 · 외부 자료 | [KaTeX](https://github.com/KaTeX/KaTeX/tree/v0.16.9) · 코드의 [MIT 라이선스](https://github.com/KaTeX/KaTeX/blob/v0.16.9/LICENSE) |
+| 수업 제공 자료 | `prepare_github_pages.py`, 로봇팔 과제의 예제 코드 · 수업 자료 | 초급프로젝트 및 컴퓨터 그래픽스 수업에서 제공 |
+| 프로필 이미지 | `site/static/images/profile.png` · AI 생성 | ChatGPT로 생성 |
+| 로봇팔 이미지 | `site/static/images/robot-arm.jpg` · 화면 캡처 | 직접 구현한 로봇팔 실행 화면을 캡처 |
+| 사이트 문구와 수정 코드 | 소개·활동 글, 사이트 설정과 스타일 · 직접 작성·AI 도움 | 직접 작성과 ChatGPT/Codex의 문장 정리·구현 도움을 함께 사용 |
+| Writing 카드 배경 | `site/static/images/ZenBrushstroke.png` · 테마 포함 이미지 | Celadon 테마 배포본에 포함; 이미지의 별도 출처·이용 조건 확인 필요 |
