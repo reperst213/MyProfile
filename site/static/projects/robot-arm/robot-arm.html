@@ -16,10 +16,27 @@
             text-shadow: 0 1px 3px black;
             pointer-events: none;
         }
+        .back-link {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 2;
+            padding: 10px 14px;
+            border-radius: 6px;
+            background: #fff;
+            color: #222;
+            font-family: system-ui, sans-serif;
+            text-decoration: none;
+        }
+        .back-link:focus-visible {
+            outline: 3px solid #5689ff;
+            outline-offset: 3px;
+        }
     </style>
 </head>
 
 <body>
+    <a class="back-link" href="../../writing/robot-arm/">← 프로젝트 소개로</a>
     <div class="controls-guide" aria-label="키보드 조작 키">
         <div>W/S: 팔꿈치 접기 / 펴기</div>
         <div>E/D: 손목 접기 / 펴기</div>
