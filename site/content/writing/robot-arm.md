@@ -2,6 +2,7 @@
 title: "키보드로 조작하는 로봇팔"
 date: 2026-10-31
 summary: "JavaScript와 WebGL로 키보드로 조작할 수 있는 로봇팔을 구현한 수업 과제입니다."
+image: "/images/robot-arm.jpg"
 tags: ["JavaScript", "WebGL", "컴퓨터 그래픽스"]
 ---
 
