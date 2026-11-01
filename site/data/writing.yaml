@@ -1,5 +1,5 @@
 writing:
   - name: "Notes"
-    description: "In-progress syntheses of papers & methods."
+    description: "직접 만들고 공부한 프로젝트를 소개합니다."
     image: "/images/ZenBrushstroke.png"
     url: "/writing/"

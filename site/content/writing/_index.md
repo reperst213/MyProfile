@@ -1,8 +1,8 @@
 ---
 title: "Study Notes"
-description: "Working notes that mix math, code, and policy sketches."
-date: 2023-12-01
+description: "공부한것들과 진행한작업"
+date: 2026-11-01
 layout: "list"
 ---
 
-Welcome to my study stack — raw fragments, proofs, and quick simulations that eventually feed into papers or writing.
+제가 공부한 것들을 소개하겠습니다. - 인공지능, 워크플로우, 알고리즘, 그래픽스
