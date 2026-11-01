@@ -1,3 +1,24 @@
+# Joeunbo의 개인 소개 사이트
+
+Hugo와 GitHub Pages로 만든 개인 소개 사이트입니다. 관심 분야와 학습 내용, 컴퓨터 그래픽스 수업에서 구현한 로봇팔 프로젝트를 소개합니다.
+
+사이트: https://reperst213.github.io/MyProfile/
+
+## 소개와 활동 수정하기
+
+- `site/data/profile.yaml`: 이름, 자기소개, 소속, 관심 분야와 GitHub 링크
+- `site/data/news.yaml`: 홈 화면의 소식
+- `site/data/research.yaml`: 홈 화면의 활동 카드와 링크
+- `site/data/writing.yaml`: 홈 화면에서 글 목록으로 이동하는 카드
+- `site/content/writing/`: 프로젝트 소개 글. 로봇팔 소개는 `robot-arm.md`
+- `site/static/projects/robot-arm/`: 직접 실행할 수 있는 로봇팔 프로젝트 파일
+
+## 테마 출처
+
+이 사이트는 [Yajie Xu의 Celadon 테마](https://github.com/Yajie-Xu/hugo-celadon)를 사용합니다. 테마의 MIT 라이선스 고지는 [LICENSE.txt](LICENSE.txt)에 있습니다. 아래에는 원본 테마의 안내를 보존했습니다.
+
+---
+
 # Celadon 🍵
 
 **An intellectual portfolio theme exploring the equilibrium between academic rigor and creative design.**
