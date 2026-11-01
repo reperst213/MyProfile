@@ -9,3 +9,5 @@ papers:
     links:
       - label: "활동 자세히 보기"
         url: "/writing/robot-arm/"
+      - label: "체험해보기"
+        url: "../../projects/robot-arm/robot-arm.html"
