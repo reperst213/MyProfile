@@ -13,6 +13,27 @@ Hugo와 GitHub Pages로 만든 개인 소개 사이트입니다. 관심 분야�
 - `site/content/writing/`: 프로젝트 소개 글. 로봇팔 소개는 `robot-arm.md`
 - `site/static/projects/robot-arm/`: 직접 실행할 수 있는 로봇팔 프로젝트 파일
 
+## 수정 후 재배포하기
+
+1. 위에서 안내한 파일을 수정하고 저장합니다.
+2. 저장소의 루트 폴더에서 변경 내용을 확인하고 커밋합니다. 예를 들어 자기소개를 수정했다면 다음과 같이 실행합니다.
+
+   ```bash
+   git status
+   git diff -- site/data/profile.yaml
+   git add site/data/profile.yaml
+   git commit -m "Update profile"
+   ```
+
+   다른 파일을 수정했다면 해당 파일 경로와 변경 내용에 맞는 커밋 메시지를 사용합니다.
+3. `main` 브랜치에 커밋을 push합니다.
+
+   ```bash
+   git push origin main
+   ```
+
+4. [GitHub Actions 실행 목록](https://github.com/reperst213/MyProfile/actions)에서 해당 커밋의 `Deploy Hugo to GitHub Pages` 실행을 열고 빌드와 배포가 성공했는지 확인합니다. 이후 [공개 사이트](https://reperst213.github.io/MyProfile/)에서 수정 내용과 링크가 정상인지 확인합니다.
+
 ## 테마 출처
 
 이 사이트는 [Yajie Xu의 Celadon 테마](https://github.com/Yajie-Xu/hugo-celadon)를 사용합니다. 테마의 MIT 라이선스 고지는 [LICENSE.txt](LICENSE.txt)에 있습니다. 아래에는 원본 테마의 안내를 보존했습니다.
