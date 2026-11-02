@@ -660,7 +660,7 @@ body[data-theme="dark"] .tag {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(28, 28, 30, 0.35);
+  background: rgba(28, 28, 30, 0.65);
   transition: opacity 0.25s ease;
 }
 
@@ -695,11 +695,6 @@ body[data-theme="dark"] .tag {
 .category-card:focus-visible {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 30px 60px rgba(107, 142, 155, 0.25);
-}
-
-.category-card:hover::before,
-.category-card:focus-visible::before {
-  opacity: 0.5;
 }
 
 .site-footer {
