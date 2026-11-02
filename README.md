@@ -74,4 +74,4 @@ python3 .github/pages_build.py --build
 | 프로필 이미지 | `site/static/images/profile.png` · AI 생성 | ChatGPT로 생성 |
 | 로봇팔 이미지 | `site/static/images/robot-arm.jpg` · 화면 캡처 | 직접 구현한 로봇팔 실행 화면을 캡처 |
 | 사이트 문구와 수정 코드 | 소개·활동 글, 사이트 설정과 스타일 · 직접 작성·AI 도움 | 직접 작성과 ChatGPT/Codex의 문장 정리·구현 도움을 함께 사용 |
-| Writing 카드 배경 | [Celadon 테마 예제 이미지](https://github.com/Yajie-Xu/hugo-celadon/blob/main/exampleSite/static/images/ZenBrushstroke.png) | 원본 프로젝트는 [MIT 라이선스](https://github.com/Yajie-Xu/hugo-celadon/blob/main/LICENSE.txt)로 배포됨; 이미지 제작자와 별도 이용 조건은 명시되지 않음 |
+| Writing 카드 배경 | [Celadon 테마 예제 이미지](https://github.com/Yajie-Xu/hugo-celadon/blob/main/exampleSite/static/images/ZenBrushstroke.png) | 원본 프로젝트는 [MIT 라이선스](https://github.com/Yajie-Xu/hugo-celadon/blob/main/LICENSE.txt)로 배포됨;
